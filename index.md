@@ -44,7 +44,7 @@
 
 <input type="text" name="wd" placeholder="">
 
-<button type="submit">搜索</button>
+<button type="submit">搜1索</button>
 
 </form>
 
