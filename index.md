@@ -40,7 +40,7 @@
 # 致谢
 感谢您花时间阅读我的简历，期待能有机会和您共事。
 测试
-<form action="https://www.bing.com/s" method="get">
+<form action="https://www.bing.com/search?q=" method="get">
 
 <input type="text" name="wd" placeholder="">
 
