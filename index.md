@@ -52,4 +52,10 @@
     <input type="text" name="wd" placeholder="请输入搜索内容">
     <button type="submit">搜索</button>
 </form>
+<input type=“text” value=“” id=“bing_keyword”><input type=“button” onclick=“bing_search（）” value=“search”><script language=“javascript”>
+function bing_search（）{
+var str = document.getElementById（“bing_keyword”）.value;
+str = escape（str）;//解决中文乱码
+var win = window.open（“http://www.bing.com/search?q=”+str）;
+}
       
