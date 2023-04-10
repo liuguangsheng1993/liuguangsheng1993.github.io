@@ -39,4 +39,17 @@
 ---      
 # 致谢
 感谢您花时间阅读我的简历，期待能有机会和您共事。
+测试
+<form action="https://www.baidu.com/s" method="get">
+
+<input type="text" name="wd" placeholder="在百度中搜索">
+
+<button type="submit">搜索</button>
+
+</form>
+
+<form action="http://www.baidu.com/s" method="get" target="_blank">
+    <input type="text" name="wd" placeholder="请输入搜索内容">
+    <button type="submit">搜索</button>
+</form>
       
