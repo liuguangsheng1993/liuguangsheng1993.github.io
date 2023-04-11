@@ -39,23 +39,3 @@
 ---      
 # 致谢
 感谢您花时间阅读我的简历，期待能有机会和您共事。
-测试
-<form action="https://www.bing.com/search?q=" method="get">
-
-<input type="text" name="wd" placeholder="">
-
-<button type="submit">搜1索</button>
-
-</form>
-
-<form action="http://www.baidu.com/s" method="get" target="_blank">
-    <input type="text" name="wd" placeholder="请输入搜索内容">
-    <button type="submit">搜索</button>
-</form>
-<input type=“text” value=“” id=“bing_keyword”><input type=“button” onclick=“bing_search（）” value=“search”><script language=“javascript”>
-function bing_search（）{
-var str = document.getElementById（“bing_keyword”）.value;
-str = escape（str）;//解决中文乱码
-var win = window.open（“http://www.bing.com/search?q=”+str）;
-}
-      
